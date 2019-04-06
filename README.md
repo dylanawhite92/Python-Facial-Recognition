@@ -56,3 +56,5 @@ And we're even able to pull the found faces out into their own individual images
 Using the Pillow imaging library, we can effectively 'tag' a found person similar to the way that Facebook does. We utilize the face encodings mapped by the library, and store those coordinates in a variable to compare them against with other images of that person.
 
 ![Identified](./img/taggedfaces/identified.jpg)
+
+And that's it so far for our experimentation with Python's Facial Recognition library!
