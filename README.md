@@ -11,6 +11,7 @@ A repo of practice with Python's Facial Recognition library. Some of this is don
 - Happy coding!~
 
 ### How it Works
+
 Using the command line, we compare the unknown images in our unknown folder against the folder of known images to see if they are similar in structure using the command `$ face_recognition ./img/known ./img/unknown`, and displays what person that image matches, or if it is an `unknown_person`.
 
 ![Unknown Persons](./img/screenshots/detection.png)
