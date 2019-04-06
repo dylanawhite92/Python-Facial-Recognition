@@ -13,17 +13,17 @@ A repo of practice with Python's Facial Recognition library. Some of this is don
 ### How it Works
 Using the command line, we compare the unknown images in our unknown folder against the folder of known images to see if they are similar in structure using the command `$ face_recognition ./img/known ./img/unknown`, and displays what person that image matches, or if it is an `unknown_person`.
 
-![Unknown Persons](img/screenshots/detection.png)
+![Unknown Persons](./img/screenshots/detection.png)
 
-![Detected Persons](img/screenshots/unknown.png)
+![Detected Persons](./img/screenshots/unknown.png)
 
 We can even see how it performs against lookalikes, and see the distance between how similar one face in a picture is to another by adding the flag `--show-distance true` to our command.
 
-![Lookalikes](img/screenshots/lookalike.png)
+![Lookalikes](./img/screenshots/lookalike.png)
 
 We can limit how similar a face can be before it is recognized as a known person by setting the flag `--tolerance n` and defining amount `n`.
 
-![Tolerance](img/screenshots/tolerance.png)
+![Tolerance](./img/screenshots/tolerance.png)
 
 And it will register the Barack Obama lookalike is now an unknown_person, because the tolerance is nearly 0.6.
 
